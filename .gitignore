@@ -1,0 +1,7 @@
+.vs
+/binary/x86
+/binary/x86_64
+*.vcxproj*
+*.sln
+
+.vscode/settings.json
