@@ -21,8 +21,7 @@ CreateWorkspace({
 })
     CreateProject({
         serverside = false,
-        manual_files = false, -- 自动添加文件
-        source_path = 'src' -- 源码路径
+        source_path = 'src'
     })
 
         -- IncludeHelpersExtended() -- uses this repo path
@@ -38,6 +37,14 @@ CreateWorkspace({
         -- IncludeSDKMathlib()
         -- IncludeSDKRaytrace()
         -- IncludeSteamAPI()
+
+        -- includedirs {
+		--	"src/xxx",
+		-- }
+
+		-- files {
+		--	"src/xxx",
+		-- }
 
 
 

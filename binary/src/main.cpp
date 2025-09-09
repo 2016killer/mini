@@ -6,7 +6,7 @@ using namespace GarrysMod::Lua;
 
 GMOD_MODULE_OPEN() {
 	Msg("=====================================\n");
-	Msg("加载成功! Hello World!\n");
+	Msg("[mini]:加载成功! Hello World!\n");
 	Msg("=====================================\n");
 	return 0;
 }
